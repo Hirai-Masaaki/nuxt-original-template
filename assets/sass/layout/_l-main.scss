@@ -1,0 +1,11 @@
+.l-main {
+  display: block;
+  max-width: 1180px;
+  padding: 0 40px;
+  margin: 0 auto;
+  @include mq-down() {
+    width: 90vw;
+    padding: 0;
+    margin: 0 auto;
+  }
+}

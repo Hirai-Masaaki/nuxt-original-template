@@ -1,0 +1,19 @@
+.p-heading {
+  &__x-large {
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1;
+  }
+  &__large {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1;
+  }
+  &__medium {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+  &__small {
+    font-size: 1.4rem;
+  }
+}
