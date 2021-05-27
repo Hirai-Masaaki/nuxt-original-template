@@ -1,6 +1,5 @@
 html {
   height: 100%;
-
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -9,10 +8,13 @@ html {
 }
 
 body {
-  // font-family: $font-family;
-  font-size: 15px;
-  line-height: 1.4;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: rgb(126, 126, 126);
+}
 
-  color: $main-color;
-  background-color: $secondary-color;
+img {
+  display: block;
 }
